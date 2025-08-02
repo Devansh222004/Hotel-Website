@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/swiper@7/swiper-bundle.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <header class="header">
+
+        <div id="menu-btn" class="bx bx-menu"></div>
+
+        <a href="" class="logo"><i class='bx bxs-hotel'></i>Hotel</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#about">About Us</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#reservation" class="btn">Book Now</a>
+        </nav>
+
+        <div class="icons">
+            <i class='bx bx-search' id="search-btn"></i>
+            <i class='bx bx-user' id="user-btn"></i>
+        </div>
+
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search...">
+            <label for="search-bar" class='bx bx-search'></label>
+        </form>
+    </header>
+
+    <div class="login-form-container">
+        <i class='bx bx-x' id="form-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+            <input type="submit" value="Login" class="btns">
+            <p>Forgot Password? <a href="#">Click Here</a></p>
+            <p>Don't have an account? <a href="#">Sign Up</a></p>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+
+        <div class="bg">
+
+            <div class="content">
+                <h3>Step into the world of Luxury</h3>
+                <h1>Discover New Places, Discover Yourself</h1>
+                <a href="#" class="btn">Explore</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="availability">
+        <form action="">
+            <div class="box">
+                <p>Check In <span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p>Check Out <span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p>Number of adults <span>*</span></p>
+                <select name="adults" id="" class="input">
+                    <option value="1">1 adult</option>
+                    <option value="2">2 adults</option>
+                    <option value="3">3 adults</option>
+                    <option value="4">4 adults</option>
+                    <option value="5">5 adults</option>
+                    <option value="6">6 adults</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>Number of children <span>*</span></p>
+                <select name="children" id="" class="input">
+                    <option value="1">1 child</option>
+                    <option value="2">2 children</option>
+                    <option value="3">3 children</option>
+                    <option value="4">4 children</option>
+                    <option value="5">5 children</option>
+                    <option value="6">6 children</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>Number of Rooms <span>*</span></p>
+                <select name="rooms" id="" class="input">
+                    <option value="1">1 room</option>
+                    <option value="2">2 rooms</option>
+                    <option value="3">3 rooms</option>
+                    <option value="4">4 rooms</option>
+                    <option value="5">5 rooms</option>
+                    <option value="6">6 rooms</option>
+                </select>
+            </div>
+
+            <input type="submit" value="Check Availability" class="btn">
+        </form>
+    </section>
+
+
+    <section class="room" id="rooms">
+
+        <h1 class="heading">
+
+            <span>S</span>
+            <span>U</span>
+            <span>I</span>
+            <span>T</span>
+            <span>E</span>
+            <span>S</span>
+
+        </h1>
+
+        <div class="swiper">
+
+            <!-- <div class="swiper-wrapper"> -->
+
+                <div class="swiper-slide slide">
+
+                    <div class="img">
+
+                        <span class="price">&#8377;7000/night</span>
+                        <img src="Images/one.jpg" alt="">
+                        <a href="" class='bx bxs-cart'"></a>
+                    </div>
+
+                    <div class=" content">
+                            <h3>Exclusive Room</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, dolor eaque. Quis non
+                                quae laborum quaerat corporis, voluptates saepe iusto sint, vitae voluptate doloribus
+                                hic dolorum quidem cumque necessitatibus natus.</p>
+
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half'></i>
+                            </div>
+
+                            <a href="#" class="btn">Book Now</a>
+
+                    </div>
+
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="img">
+
+                        <span class="price">&#8377;5000/night</span>
+                        <img src="Images/two.jpg" alt="">
+                        <a href="" class='bx bxs-cart'"></a>
+                    </div>
+
+                    <div class=" content">
+                            <h3>Exclusive Room</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, dolor eaque. Quis non
+                                quae laborum quaerat corporis, voluptates saepe iusto sint, vitae voluptate doloribus
+                                hic dolorum quidem cumque necessitatibus natus.</p>
+
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+
+                            <a href="#" class="btn">Book Now</a>
+
+                    </div>
+
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="img">
+
+                        <span class="price">&#8377;8500/night</span>
+                        <img src="Images/three.jpg" alt="">
+                        <a href="" class='bx bxs-cart'"></a>
+                    </div>
+
+                    <div class=" content">
+                            <h3>Exclusive Room</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, dolor eaque. Quis non
+                                quae laborum quaerat corporis, voluptates saepe iusto sint, vitae voluptate doloribus
+                                hic dolorum quidem cumque necessitatibus natus.</p>
+
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+
+                            <a href="#" class="btn">Book Now</a>
+                    </div>
+
+
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="img">
+
+                        <span class="price">&#8377;6500/night</span>
+                        <img src="Images/four.jpg" alt="">
+                        <a href="#" class='bx bxs-cart'></a>
+                    </div>
+
+                    <div class="content">
+                        <h3>Exclusive Room</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, dolor eaque. Quis non
+                            quae laborum quaerat corporis, voluptates saepe iusto sint, vitae voluptate doloribus
+                            hic dolorum quidem cumque necessitatibus natus.</p>
+
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+
+                        <a href="#" class="btn">Book Now</a>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <section class="services">
+        <h1 class="heading">
+            <span>A</span>
+            <span>C</span>
+            <span>T</span>
+            <span>I</span>
+            <span>V</span>
+            <span>I</span>
+            <span>T</span>
+            <span>Y</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class='bx bx-swim'></i>
+                <h3>Swimming</h3>
+            </div>
+
+            
+            <div class="box">
+                <i class='bx bx-dumbbell' ></i>
+                <h3>Gym</h3>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-spa'></i>
+                <h3>Spa</h3>
+            </div>
+
+            <div class="box">
+                <i class='bx bx-restaurant'></i>
+                <h3>Restaurant</h3>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-movie-play'></i>
+                <h3>Movie Room</h3>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-game'></i>
+                <h3>Game Room</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+
+        <h1 class="heading">
+            <span>A</span>
+            <span>B</span>
+            <span>O</span>
+            <span>U</span>
+            <span>T</span>
+            <span class="space"></span>
+            <span>U</span>
+            <span>S</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+
+                <img src="Images/about.jpg" alt="">
+
+            </div>
+
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis esse voluptatem, sint repudiandae
+                    explicabo sunt omnis distinctio ea exercitationem? Ipsam natus possimus adipisci autem consequuntur
+                    laudantium deserunt quos nesciunt, necessitatibus veniam temporibus odit? Magnam enim voluptates
+                    architecto odit atque, aspernatur odio distinctio vel exercitationem dolorum, dicta incidunt in
+                    consectetur hic, placeat eligendi officiis laborum mollitia dolores! Deleniti a dolore dolor ex
+                    harum maxime dignissimos non, alias repellendus odit dicta, illo autem aliquid doloremque, magni id
+                    nobis temporibus! Optio, enim modi.</p>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut repellendus aliquam provident deleniti
+                    veniam illum voluptatum nostrum, ut, sunt saepe assumenda velit debitis dolore est a deserunt at
+                    voluptatibus? Consequuntur ipsa ab vitae itaque laudantium commodi corrupti doloremque alias.
+                    Cupiditate.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="reviews" id="reviews">
+        <h1 class="heading">
+            <span>R</span>
+            <span>E</span>
+            <span>V</span>
+            <span>I</span>
+            <span>E</span>
+            <span>W</span>
+            <span>S</span>
+        </h1>
+
+        
+            <div class="customer-container">
+                <div class="customer">
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <h3>Amazing Experience</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magnam in quos nostrum asperiores consequatur reiciendis facere beatae eaque odit, aliquid natus, consectetur, nobis ut dignissimos neque fugit aut. Dolorum modi cupiditate ratione magni aspernatur necessitatibus illo, facilis impedit accusamus.</p>
+                    <img src="Images/cust one.jpg" alt="">
+                    <h3>John Rich</h3>
+                </div>
+
+                <div class="customer">
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <h3>Beautiful Place, Comfortable Stay</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nulla voluptas consequatur dicta dignissimos voluptates sint sunt quae sed obcaecati nemo, neque accusamus voluptatem rem ab. Dolor commodi cumque unde, exercitationem nobis nostrum nulla totam eaque similique odio laborum amet.</p>
+                    <img src="Images/cust two.jpg" alt="">
+                    <h3>Emilia Fernandes</h3>
+                </div>
+
+                <div class="customer">
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <h3>Loved It</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam reiciendis fugit odio in quidem quod tempore debitis repellat aperiam sequi rem molestiae doloremque minus quae architecto dignissimos, commodi unde repellendus repudiandae autem asperiores! Voluptatibus numquam hic vitae explicabo sequi aperiam!</p>
+                    <img src="Images/cust three.jpg" alt="">
+                    <h3>Jackson White</h3>
+                </div>
+            </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>G</span>
+            <span>A</span>
+            <span>L</span>
+            <span>L</span>
+            <span>E</span>
+            <span>R</span>
+            <span>Y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/g1.jpg" alt="">
+                <div class="content">
+                    <h3>Breathtaking Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, explicabo.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images/g2.jpg" alt="">
+                <div class="content">
+                    <h3>Breathtaking Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, explicabo.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images/g3.jpeg" alt="">
+                <div class="content">
+                    <h3>Breathtaking Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, explicabo.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images/g4.jpg" alt="">
+                <div class="content">
+                    <h3>Breathtaking Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, explicabo.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images/g5.jpg" alt="">
+                <div class="content">
+                    <h3>Breathtaking Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, explicabo.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images/g6.jpg" alt="">
+                <div class="content">
+                    <h3>Breathtaking Places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, explicabo.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <h1 class="heading">
+            <span>F</span>
+            <span>A</span>
+            <span>Q</span>
+        </h1>
+
+        <div class="row">
+            <div class="content">
+                <div class="box">
+                    <h3>What are the payment modes?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sunt impedit provident? Quod vero numquam beatae dolorum, itaque ratione aspernatur quia! Vitae necessitatibus corrupti consequuntur sint temporibus. Consequuntur, nemo necessitatibus?</p>
+                </div>
+
+                <div class="box">
+                    <h3>Are Discount Offered?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sunt impedit provident? Quod vero numquam beatae dolorum, itaque ratione aspernatur quia! Vitae necessitatibus corrupti consequuntur sint temporibus. Consequuntur, nemo necessitatibus?</p>
+                </div>
+
+                <div class="box">
+                    <h3>Are Packages Available?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sunt impedit provident? Quod vero numquam beatae dolorum, itaque ratione aspernatur quia! Vitae necessitatibus corrupti consequuntur sint temporibus. Consequuntur, nemo necessitatibus?</p>
+                </div>
+
+                <div class="box">
+                    <h3>What are the various activities?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sunt impedit provident? Quod vero numquam beatae dolorum, itaque ratione aspernatur quia! Vitae necessitatibus corrupti consequuntur sint temporibus. Consequuntur, nemo necessitatibus?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>C</span>
+            <span>O</span>
+            <span>N</span>
+            <span>T</span>
+            <span>A</span>
+            <span>C</span>
+            <span>T</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="Images/contact.png" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputbox">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputbox">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea name="" placeholder="Your Message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="Send Message">
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href=""><i class='bx bxs-phone'></i>&nbsp;+91 9569990676</a>
+                <a href=""><i class='bx bxs-envelope'></i>&nbsp;devanshtripathi3430@gmail.com</a>
+                <a href=""><i class='bx bxs-map'></i>&nbsp;New Delhi, India</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href=""><i class='bx bx-right-arrow-alt'></i>Home</a>
+                <a href=""><i class='bx bx-right-arrow-alt'></i>My Account</a>
+                <a href=""><i class='bx bx-right-arrow-alt'></i>Reservations</a>
+                <a href=""><i class='bx bx-right-arrow-alt'></i>FAQ</a>
+                <a href=""><i class='bx bx-right-arrow-alt'></i>Refund Policy</a>
+            </div>
+
+            <div class="box">
+                <h3>Explore More</h3>
+                <a href=""><i class='bx bx-right-arrow-alt'></i>Homestays</a>
+                <a href=""><i class='bx bx-right-arrow-alt'></i>Camps</a>
+                <a href=""><i class='bx bx-right-arrow-alt'></i>Adventures</a>
+                <a href=""><i class='bx bx-right-arrow-alt'></i>Gallery</a>
+            </div>
+        </div>
+
+        <div class="social">
+           
+            <a href="https://www.linkedin.com/in/devansh-tripathi-634609293/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://www.instagram.com/devansh._.22?igsh=anBpejAxOWo5eG9q"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href=""><i class='bx bxl-youtube' ></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+        </div>
+
+        <div class="credits">
+            <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+</body>
+</html>
